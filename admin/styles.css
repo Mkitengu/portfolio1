@@ -1,0 +1,114 @@
+body{
+	background: url(../assets/image/pngtree-3d-render-of-fire-extinguisher-against-blaze-background-image_3811144.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 400px;
+	height: 500px;
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 350px;
+	text-align: center;
+	border: 1px solid rgb(241, 241, 241);
+	border-radius: 12px;
+	padding: 10px 20px;
+	background: transparent;
+	backdrop-filter: blur(6px);
+	box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.wrapper h2{
+	font-size: 30px;
+	color: #fffefe;
+}
+
+.input-field{
+	position: relative;
+}
+.input-field input[type="email"]: not(:focus)::placeholder,
+.input-field input[type="password"]:not(:focus)::placeholder{
+	transform: translalteY(0%);
+	transition: transform 0.2s ease-in-put;
+	font-size: 16px;
+}
+.input-field input[type="email"]: not(:focus)::placeholder,
+.input-field input[type="text"]:not(:focus)::placeholder{
+	transform: translalteY(0%);
+	transition: transform 0.2s ease-in-put;
+	font-size: 16px;
+}
+a.forgot{
+	text-decoration: none;
+	position: relative;
+	color: rgb(255, 255, 255, 0.712);
+}
+
+a.forgot:hover{
+	text-decoration: underline;
+	color: #fffffffd;
+}
+
+a.sign-up{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.712);
+}
+
+a.sign-up:hover{
+	text-decoration: underline;
+	color: #fffffffd;
+}
+
+.wrapper .login{
+	background: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-weight: 600;
+	border-radius: 45px;
+	width: 200px;
+	height: 30px;
+}
+.input-field input[type="email"],
+.input-field input[type="password"]{
+	border-radius: 10px;
+	background: transparent;
+	margin: 15px;
+	border: 2px solid rgb(255, 255, 255);
+	width: 280px;
+	height: 2px;
+	padding: 20px 40px 20px 20px;
+	backdrop-filter: blur(15px);
+	font
+}
+.input-field input[type="email"],
+.input-field input[type="text"]{
+	border-radius: 10px;
+	background: transparent;
+	margin: 15px;
+	border: 2px solid rgb(255, 255, 255);
+	width: 280px;
+	height: 2px;
+	padding: 20px 40px 20px 20px;
+	backdrop-filter: blur(15px);
+	font
+}
+.input-field i{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	color: rgb(252, 252, 252);
+}
+#eye i{
+	padding-right: 0;
+	cursor: pointer;
+}
+#eye2 i{
+	padding-right: 0;
+	cursor: pointer;
+}
